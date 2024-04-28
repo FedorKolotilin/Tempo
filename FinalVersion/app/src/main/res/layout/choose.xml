@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fon"
+    >
+
+    <Button
+        android:id="@+id/choose_room_create"
+        android:layout_width="310dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/knopka_vbor"
+        android:backgroundTintMode="add"
+        android:fontFamily="@font/notable"
+        android:foregroundTintMode="add"
+        android:text="@string/create"
+        android:textColor="@color/dark_corch"
+        android:textSize="18sp"
+        app:iconTint="@color/white"
+        app:iconTintMode="add"
+        app:layout_constraintStart_toStartOf="@+id/imageView9"
+        app:layout_constraintTop_toBottomOf="@+id/choose_room_enter" />
+
+    <Button
+        android:id="@+id/choose_room_enter"
+        android:layout_width="310dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/knopka_vbor"
+        android:backgroundTintMode="add"
+        android:fontFamily="@font/notable"
+        android:foregroundTintMode="add"
+        android:text="@string/Join"
+        android:textColor="@color/dark_corch"
+        android:textSize="18sp"
+        app:iconTint="@color/white"
+        app:iconTintMode="add"
+        app:layout_constraintEnd_toEndOf="@+id/imageView9"
+        app:layout_constraintTop_toTopOf="@+id/imageView9" />
+
+    <FrameLayout
+        android:id="@+id/imageView9"
+        android:layout_width="369dp"
+        android:layout_height="235dp"
+        android:layout_marginTop="224dp"
+        android:foreground="@drawable/teni_knopka"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/teni_knopka" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

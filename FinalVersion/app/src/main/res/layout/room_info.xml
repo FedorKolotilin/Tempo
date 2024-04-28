@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fon">
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="343dp"
+        android:layout_height="393dp"
+        android:layout_marginTop="120dp"
+        android:foreground="@drawable/info_fon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/info_fon" />
+
+    <TextView
+        android:id="@+id/room_info_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="148dp"
+        android:fontFamily="@font/manrope_bold"
+        android:text="@string/name"
+        android:textColor="@color/dark_corch"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/imageView16"
+        app:layout_constraintTop_toTopOf="@+id/imageView16" />
+
+    <TextView
+        android:id="@+id/room_info_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="92dp"
+        android:fontFamily="@font/manrope_bold"
+        android:text="@string/Password"
+        android:textColor="@color/dark_corch"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/imageView16"
+        app:layout_constraintTop_toTopOf="@+id/imageView16" />
+
+    <TextView
+        android:id="@+id/room_info_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="36dp"
+        android:fontFamily="@font/manrope_bold"
+        android:text="@string/ID"
+        android:textColor="@color/dark_corch"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/imageView16"
+        app:layout_constraintTop_toTopOf="@+id/imageView16" />
+
+    <ListView
+        android:id="@+id/room_info_listview"
+        android:layout_width="290dp"
+        android:layout_height="143dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="223dp"
+        android:layout_marginEnd="26dp"
+        android:background="@drawable/vsplvashka_fon"
+        android:backgroundTint="@color/design_default_color_background"
+        app:layout_constraintEnd_toEndOf="@+id/imageView16"
+        app:layout_constraintStart_toStartOf="@+id/imageView16"
+        app:layout_constraintTop_toTopOf="@+id/imageView16" />
+</androidx.constraintlayout.widget.ConstraintLayout>

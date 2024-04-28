@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Tempo</string>
+    <string name="Tempo">Tempo</string>
+    <string name="ID">ID:</string>
+    <string name="Password">Password:</string>
+    <string name="name">Name:</string>
+    <string name="Join2">Join:</string>
+    <string name="create2">Create:</string>
+    <string name="def">Текст для абзаца</string>
+    <string name="Join">Join</string>
+    <string name="create">Create</string>
+    <string name="open_back">open_back</string>
+    <string name="mail">e-mail</string>
+    <string name="pass">password</string>
+    <string name="name1">first name</string>
+    <string name="name2">last name</string>
+    <string name="noom">track number </string>
+</resources>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <ImageButton
+        android:id="@+id/room_info"
+        android:layout_width="33dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="43dp"
+        android:layout_marginBottom="17dp"
+        android:background="@drawable/poloski"
+        android:backgroundTint="@color/design_default_color_background"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="47dp"
+        android:fontFamily="@font/notable"
+        android:text="@string/Tempo"
+        android:textColor="@color/design_default_color_background"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/room_picture"
+        android:layout_width="289dp"
+        android:layout_height="296dp"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="43dp"
+        android:foreground="@drawable/kartina_komnata"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        app:srcCompat="@drawable/kartina_komnata" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="354dp"
+        android:layout_height="314dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="19dp"
+        android:foreground="@drawable/flower_fon_comnata"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/room_picture"
+        tools:ignore="MissingConstraints" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="361dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="43dp"
+        android:backgroundTint="@color/design_default_color_background"
+        android:foregroundTint="@color/design_default_color_background"
+        android:indeterminateTint="@color/design_default_color_background"
+        android:progressBackgroundTint="@color/design_default_color_background"
+        android:progressTint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/room_picture" />
+
+    <ImageButton
+        android:id="@+id/room_translation_button"
+        android:layout_width="68dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="34dp"
+        android:background="@drawable/play_room"
+        android:foreground="@drawable/play_room"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/seekBar" />
+
+    <ImageButton
+        android:id="@+id/room_pause_button"
+        android:layout_width="68dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="34dp"
+        android:background="@drawable/room_pause"
+        android:foreground="@drawable/room_pause"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/seekBar" />
+
+    <ImageButton
+        android:id="@+id/room_chat"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/soob"
+        android:backgroundTint="@color/white_2"
+        android:tint="@color/white_2"
+        app:layout_constraintEnd_toStartOf="@+id/room_translation_button"
+        app:layout_constraintTop_toBottomOf="@+id/seekBar" />
+
+    <ImageButton
+        android:id="@+id/room_files_button"
+        android:layout_width="42dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/papka"
+        android:backgroundTint="@color/white_2"
+        app:layout_constraintStart_toEndOf="@+id/room_translation_button"
+        app:layout_constraintTop_toBottomOf="@+id/seekBar" />
+
+    <ImageButton
+        android:id="@+id/room_exit"
+        android:layout_width="33dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="18dp"
+        android:background="@drawable/exit"
+        android:backgroundTint="@color/white_2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/treck_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/manrope_bold"
+        android:text="@string/noom"
+        android:textColor="@color/green"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/room_picture" />
+
+    <ImageButton
+        android:id="@+id/room_next_song"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="132dp"
+        android:background="@drawable/pravo"
+        android:backgroundTint="@color/white_2"
+        app:layout_constraintStart_toEndOf="@+id/room_files_button"
+        app:layout_constraintTop_toBottomOf="@+id/room_picture" />
+
+    <ImageButton
+        android:id="@+id/room_previous_song"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="132dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/levo"
+        android:backgroundTint="@color/white_2"
+        app:layout_constraintEnd_toStartOf="@+id/room_chat"
+        app:layout_constraintTop_toBottomOf="@+id/room_picture" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

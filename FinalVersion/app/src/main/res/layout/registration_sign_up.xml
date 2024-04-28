@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fon">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="311dp"
+        android:layout_height="425dp"
+        android:layout_marginTop="125dp"
+        android:foreground="@drawable/info_fon2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/info_fon2" />
+
+    <EditText
+        android:id="@+id/registration_sig_up_firstname"
+        android:layout_width="237dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="34dp"
+        android:backgroundTint="@color/white_2"
+        android:fontFamily="@font/manrope_bold"
+        android:text="@string/name1"
+        app:layout_constraintEnd_toEndOf="@+id/imageView5"
+        app:layout_constraintTop_toTopOf="@+id/imageView5"
+        tools:text="@string/name1" />
+
+    <EditText
+        android:id="@+id/registration_sig_up_email"
+        android:layout_width="239dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="32dp"
+        android:backgroundTint="@color/white_2"
+        android:fontFamily="@font/manrope_bold"
+        android:text="@string/mail"
+        app:layout_constraintEnd_toEndOf="@+id/imageView5"
+        app:layout_constraintTop_toBottomOf="@+id/registration_sig_up_lastname"
+        tools:text="@string/mail" />
+
+    <EditText
+        android:id="@+id/registration_sig_up_pass1"
+        android:layout_width="237dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="34dp"
+        android:backgroundTint="@color/white_2"
+        android:fontFamily="@font/manrope_bold"
+        android:text="@string/pass"
+        app:layout_constraintEnd_toEndOf="@+id/imageView5"
+        app:layout_constraintTop_toBottomOf="@+id/registration_sig_up_email"
+        tools:text="@string/pass" />
+
+    <EditText
+        android:id="@+id/registration_sig_up_pass2"
+        android:layout_width="235dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="36dp"
+        android:backgroundTint="@color/white_2"
+        android:fontFamily="@font/manrope_bold"
+        android:text="@string/pass"
+        app:layout_constraintEnd_toEndOf="@+id/imageView5"
+        app:layout_constraintTop_toBottomOf="@+id/registration_sig_up_pass1"
+        tools:text="@string/pass" />
+
+    <EditText
+        android:id="@+id/registration_sig_up_lastname"
+        android:layout_width="239dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="32dp"
+        android:backgroundTint="@color/white_2"
+        android:fontFamily="@font/manrope_bold"
+        android:text="@string/name2"
+        app:layout_constraintEnd_toEndOf="@+id/imageView5"
+        app:layout_constraintTop_toBottomOf="@+id/registration_sig_up_firstname"
+        tools:text="@string/name2" />
+
+    <ImageButton
+        android:id="@+id/registration_sig_up_buttonsignup"
+        android:layout_width="263dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="56dp"
+        android:background="@drawable/logn_in"
+        android:foreground="@drawable/logn_in"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView5"
+        app:layout_constraintEnd_toEndOf="@+id/imageView5"
+        app:layout_constraintHorizontal_bias="0.312"
+        app:layout_constraintStart_toStartOf="@+id/imageView5" />
+
+    <ImageButton
+        android:id="@+id/registration_sig_up_buttonsignin"
+        android:layout_width="196dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/long_up"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView5"
+        app:layout_constraintEnd_toEndOf="@+id/imageView5"
+        app:layout_constraintStart_toStartOf="@+id/imageView5" />
+</androidx.constraintlayout.widget.ConstraintLayout>

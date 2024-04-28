@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/alata</item>
+        <item>@font/averia_sans_libre_bold</item>
+        <item>@font/baloo_bhaina_2</item>
+        <item>@font/manrope_bold</item>
+        <item>@font/manrope_extralight</item>
+        <item>@font/manrope_medium</item>
+        <item>@font/notable</item>
+    </array>
+</resources>
